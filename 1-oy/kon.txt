@@ -1,0 +1,64 @@
+1.Arifmetik operator
++   qo'shish
+-   ayirish
+*   ko'paytirish
+/   bo'lish
+//  butun bo'lish
+%   bo'lgandagi qoldiq
+**  darajaga ko'tarish
+
+
+x=1
+
+x=x+100
+x+=100
+
+2.Assignment operators( Qiymat oshirish )
++=
+-=
+* =
+/ =
+//=
+% =
+**=
+
+3.Taqqoslash operatorlari
+a=5
+b=10
+
+a <  b
+a >  b
+a <= b
+a >= b
+a == b
+a != b
+
+
+misol :
+a=10
+b=5
+c, d=4,5
+a < b and c < d
+
+5.Identity operators (Aniqlash)
+is
+is not
+
+
+6.Membership operatorlari
+in
+not in
+
+
+4. Logical operators (mantiqiy operatorlar)
+and
+or
+not
+
+7. Bitwise operatorlar
+&     and
+|     or
+~     not
+
+
+
