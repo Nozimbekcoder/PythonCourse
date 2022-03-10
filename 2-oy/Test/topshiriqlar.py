@@ -16,19 +16,3 @@
 # Ro'yxatni konsolga chiqaring.
 
 
-son = input("Son kiriting: ")
-
-try:
-    son = int(son)
-    if son > 0:
-        if son % 2 == 0:
-            print(son, "Musbat juft son")
-        else:
-            print(son, "Musbat toq son")
-    else:
-        if son % 2 == 0:
-            print(son, "Manfiy juft son")
-        else:
-            print(son, "Manfiy toq son")
-except:
-    print("Tog'ri javob kiritmadingiz! ")
