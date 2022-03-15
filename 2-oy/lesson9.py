@@ -54,8 +54,8 @@ Mavzu: While tsikli takrorlash
 
 # break tsklida for & while
 
-# sonlar = list(range(1, 11))   # [1,2,3,4,5,6,7,8,9,10]
-# for son in sonlar:
+# sum = list(range(1, 11))   # [1,2,3,4,5,6,7,8,9,10]
+# for son in sum:
 #     if son == 5:
 #         break
 #     print(f"{son} ning kubi {son ** 3} ga teng")
@@ -69,8 +69,8 @@ Mavzu: While tsikli takrorlash
 
 # continue for tsklida
 
-# sonlar = list(range(1, 11))
-# for son in sonlar:
+# sum = list(range(1, 11))
+# for son in sum:
 #     if son == 5:
 #         continue
 #     if son == 1:

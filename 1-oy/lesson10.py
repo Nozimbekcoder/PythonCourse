@@ -22,10 +22,10 @@ Mavzu : Listlar bilan Ishlash
 # # print(brand)
 # # print(a)
 #
-# # sonlar = [1000, 100, 500, 60, 95, 72, 5000, 350]
-# # engKichik=min(sonlar)
-# # engKatta=max(sonlar)
-# # yigindi=sum(sonlar)
+# # sum = [1000, 100, 500, 60, 95, 72, 5000, 350]
+# # engKichik=min(sum)
+# # engKatta=max(sum)
+# # yigindi=sum(sum)
 # # # print(engKichik)
 # # # print(engKatta)
 # # print(yigindi)

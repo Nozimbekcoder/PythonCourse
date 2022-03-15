@@ -1,6 +1,6 @@
 # # 1.
-# # sonlar = [4, 5, 7, 9, 5, 4, 58, 5, 4]
-# # sonlaruzunligi=len(sonlar)
+# # sum = [4, 5, 7, 9, 5, 4, 58, 5, 4]
+# # sonlaruzunligi=len(sum)
 # # print(sonlaruzunligi)
 # # 2.
 # # element=list(range(0,11))

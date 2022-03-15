@@ -12,8 +12,8 @@
 #
 # # {key: value} shu narsa dict deb ataladi
 #
-# # sonlar = {'salom','ali','for','ruchka','daftar'}
-# # print(sonlar)
+# # sum = {'salom','ali','for','ruchka','daftar'}
+# # print(sum)
 # #
 # # enuz = {
 # #     'apple': 'Olma',

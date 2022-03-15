@@ -6,19 +6,19 @@ Mavzu: List
 
 # soz='yer'
 # sozlar = ['yer','rucka','qalam']
-# sonlar = [0,5,9,6,1,11,36.6,273,-81,'sichqon']
+# sum = [0,5,9,6,1,11,36.6,273,-81,'sichqon']
 # print(type(a))
 # print(sozlar[2])
 # print(soz)
-# print(sonlar)
+# print(sum)
 
 sonlar = [7, 5, 9, -81, '5', '9', 'sichqon']
 mevalar = ['olma', 'Banan', 'Kivi', 'Shaftoli', 'Mandarin']
-# print(sonlar[1]+sonlar[2])
-# print(sonlar[4]+sonlar[5])
-# sonlar[0] = 'Nol'
-# sonlar[-2] = 'Nol'
-# print(sonlar)
+# print(sum[1]+sum[2])
+# print(sum[4]+sum[5])
+# sum[0] = 'Nol'
+# sum[-2] = 'Nol'
+# print(sum)
 # print('Meva :',mevalar[0].title(),mevalar[2].lower())
 # mevalar.append('yangi')
 # mevalar.append('2')

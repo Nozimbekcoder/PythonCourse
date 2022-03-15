@@ -38,7 +38,7 @@
 # p = 2 * (a + b)  # p=2*a+2*b
 # print('Yuzasi:', s, '\n', 'Perimetri:', p)
 
-# float  (haqiqiy sonlar) -floating point number
+# float  (haqiqiy sum) -floating point number
 
 # a=284749841894.1
 # print(type(a))

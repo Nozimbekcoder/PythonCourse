@@ -150,7 +150,7 @@
 # # 1 sonini ham kiritamiz. Demak, biz 1 dan 6 gacha bo’lgan oraliqni kiritamiz:
 # for x in range(1, 6):
 #     print(x)
-# # range() funksiyasida sonlar avtomatik bittaga ortib boradi. Ammo bu holatni ham o’zgartirish
+# # range() funksiyasida sum avtomatik bittaga ortib boradi. Ammo bu holatni ham o’zgartirish
 # # mumkin. Bunda oraliqni ko’rsatgandan so’ng sanoq nechtaga ortishini ham kiritamiz. Shunda
 # # funksiya ichidagi dastlabki ikkita son oraliqni, uchinchi son esa sanoq nechtaga ortiqshini
 # # ko’rsatadi.

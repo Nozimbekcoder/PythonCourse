@@ -30,8 +30,8 @@ Mavzu: Loop (tsikllar) pythonda for takrorlansh operatori
 #     print(f'{karra} * {son1} = {karra*son1}')
 #
 # karra=int(input('Nechi karra kerak?  >>>'))
-# sonlar = [1,6,9,5,88,77,45,998]
-# for son1 in sonlar:
+# sum = [1,6,9,5,88,77,45,998]
+# for son1 in sum:
 #     print(f'{karra} * {son1} = {karra*son1}')
 
 
