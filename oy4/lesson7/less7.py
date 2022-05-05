@@ -1,5 +1,5 @@
 """
-lesson6
+lesson7
 Muallif: Nozimjon Bozorov
 Sana: 30.04.2022
 Mavzu: Pythoning standart Tkinter kutubxonasi place,
