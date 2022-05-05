@@ -1,0 +1,100 @@
+"""
+Tkinter dasturlash  'Grafik foydalanuvchi interfeysi'
+Tkinter - Python uchun standart GUI kutubxonasi.
+Python Tkinter bilan birgalikda GUI dasturlarini yaratishning
+tez va oson usulini taqdim etadi.
+Tkinter Tk GUI asboblar
+to'plamiga kuchli ob'ektga yo'naltirilgan interfeysni
+taqdim etadi. Tkinter yordamida GUI
+dasturini yaratish oson ish.
+Sizga kerak bo'lgan narsa - bu quyidagi amallarni bajarishdir:
+ Tkinter modulini import qilish.
+GUI dasturining asosiy oynasini yaratish. GUI dasturiga
+bir yoki bir nechta vidjet qo'shish. Foydalanuvchi tomonidan
+qo'zg'atilgan har bir hodisaga qarshi choralar ko'rish uchun asosiy
+voqea tsiklini kiritish.
+Pythonda Tkinter modulini 2 usulda import qilish mumkin !!!
+1 - usul
+
+import tkinter
+top = tkinter.Tk()
+# Vidjetlarni qo'shish uchun kod bu yerga yoziladi ...
+top.mainloop()
+
+2 - usul
+from tkinter import *
+top = Tk()
+# Vidjetlarni qo'shish uchun kod bu yerga yoziladi ...
+top.mainloop()
+Bu ikkila yozgan kodimiz quyidagi oynani yaratadi:
+"""
+
+
+
+
+"""
+Tugmalar
+
+activeforeground - aktiv tugma rangi
+activebackground - Aktiv tugma fon rangi
+foreground | fg - tugma rangi
+background | bg - tugma fon rangi
+font=('Arial 18') - tugmaning fonti Shrift turi olchami (family, size, weight)
+command - tugma bosilganda chaqiriladigan funksiya, yoki funksiyalar ro'yxati
+height('') - tugmaning balandligi
+width('') - tugmaning kengligi
+bd - tugma chegarasi qalinligi
+padx=15 - tugmaning ikki tomonidan qoshimcha kenglik berish
+pady=15 - tugmaning tepasidan va pastidan qoshimcha kenglik berish
+justify('center') - tugmaning matn o'rnatish turi (center, left, right)
+state('disabled') - tugmaning holatini belgilash (normal, disabled, readonly, active)
+relief - chegara turini belgilash (flat, groove, raised, ridge, solid, sunken)
+underline - matnning tagiga chizish unda qo'yishni belgilash (0, 1)
+wraplength - matnning qo'yishni belgilash (0, 1)
+
+
+"""
+
+"""
+Joylashtirish usullar: pack(), grid(), place()
+
+1.pack() - joylashtirish usuli
+2.grid(row=0,column=0) - joylashtirish usuli
+3.place(x=0,y=0) - joylashtirish usuli
+
+1.pack() - joylashtirish usuli
+
+widget.pack(pack_options)
+expand - bosh joyni toldirish
+fill - joyni to'ldirish turi (both, x, y)
+side - joyni to'ldirish joyini belgilash (top, bottom, left, right)
+----------------------------------------------------------------------
+2.grid(row=0,column=0) - joylashtirish usuli
+
+column=n (ustun) - Vidjetni joylashtiradigan ustun; standart 0 (eng chap ustun).
+row=n (qator) - Vidjetni joylashtiradigan qator; standart 0 (eng chap ustun).
+columnspan - ustun qancha  vidjetni egallaydi; standart 1
+rowspan - qator qancha  vidjetni egallaydi; standart 1
+
+"""
+
+"""
+Tkinter grid () metodi
+
+Mana mumkin bo'lgan parametrlar ro'yxati :
+ column (ustun) - Vidjetni joylashtiradigan ustun; standart 0 (eng chap ustun).
+ columnspan - qancha ustun vidjetni egallaydi; standart 1.
+ ipadx, ipady - Vidjet chegaralarida gorizontal va vertikal ravishda vidjetni to'ldirish uchun
+qancha piksel.
+ padx, pady - v chegaralaridan tashqarida gorizontal va vertikal ravishda vidjetni qancha
+pikselga to'ldirish kerak.
+ row (qator) - vidjetni joylashtiradigan qator; sukut bo'yicha hali ham bo'sh bo'lgan birinchi
+qator.
+ rowspan - nechta qatorli vidjet egallaydi; standart 1.
+ stick (yopishqoq) - Agar katak vidjetdan kattaroq bo'lsa, nima qilish kerak. Odatiy bo'lib,
+sticky = " bilan vidjet o'z katakchasida joylashgan. yopishqoq bo'lishi mumkin, nol yoki
+undan ko'p N, E, S, W, NE, NW, SE va SW ning biriktirilishi, vidjet yopishgan katakning
+yon va burchaklarini ko'rsatadigan kompas yo'nalishlari
+
+
+"""

@@ -1,9 +1,0 @@
-1.Mirziyo = 65
-2.Adulaziz = 60
-3.Rahmatillo = 65
-4.Hojiakbar = 75
-5.Abdurauf = 59
-6.muhammadjon =
-7.
-8.
-9.
