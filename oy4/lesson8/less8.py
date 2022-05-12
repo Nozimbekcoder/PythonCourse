@@ -1,16 +1,8 @@
 """
 lesson8
 Muallif: Nozimjon Bozorov
-Sana: 28.04.2022
-Mavzu: Pythoning standart Tkinter kutubxonasi
-"""
-
-"""
-lesson8
-Muallif: Nozimjon Bozorov
-Sana: 30.04.2022
-Mavzu: Pythoning standart Tkinter kutubxonasi canvas, Top level widget,Messagebox widget
-
+Sana: 05.05.2022
+Mavzu: Pythoning standart Tkinter kutubxonasi  Top level widget ,Messagebox widget
 
 """
 #
@@ -96,7 +88,7 @@ Mavzu: Pythoning standart Tkinter kutubxonasi canvas, Top level widget,Messagebo
 #
 # def minusb():
 #     try:
-#         if ekran.get()[-1] != '/' and ekran.get()[-1] != '*' and ekran.get()[-1] != '-' and ekran.get()[-1] != '+':
+#         if ekran.get()[-1] !='.' and ekran.get()[-1] != '/' and ekran.get()[-1] != '*' and ekran.get()[-1] != '-' and ekran.get()[-1] != '+':
 #             ekran.insert(END, '-')
 #     except:
 #         pass
@@ -228,29 +220,82 @@ Mavzu: Pythoning standart Tkinter kutubxonasi canvas, Top level widget,Messagebo
 
 
 from tkinter import *
-import time
-
-gui = Tk()
-gui.geometry("800x600")
-gui.title("Pi Animation")
-canvas = Canvas(gui, width=800, height=600, bg='white')
-canvas.pack()
-
-ball1 = canvas.create_oval(7, 7, 60, 60, fill='red')
-
-xa = 5
-ya = 10
-
-while True:
-    canvas.move(ball1, xa, ya)
-    pos = canvas.coords(ball1)
-    if pos[3] >= 600 or pos[1] <= 0:
-        ya = -ya
-    if pos[2] >= 800 or pos[0] <= 0:
-        xa = -xa
-    gui.update()
-    time.sleep(.025)
-
-gui.mainloop()
+from tkinter.messagebox import*
+root = Tk()
+root.title("1-oyna")
+root.geometry('350x200')
+root.config(bg='silver')
 
 
+def oynaoch():
+    showinfo(title="Haqiqatdan ham chiqasizmi",message="Haqiqatdan ham chiqasizmi")
+
+
+    oyna2 = Toplevel(bd=5, bg='silver' , width=350, height=200)
+    oyna2.title("2-oyna")
+
+    # oyna2.config(bg='green')
+
+    oyna2.mainloop()
+
+Button(root, text="oynani och",command=oynaoch, font=('arial 15')).pack()
+
+root.mainloop()
+
+
+
+
+
+
+
+
+
+
+#
+# # from tkinter import *
+# # import time
+# #
+# # gui = Tk()
+# # gui.geometry("800x600")
+# # gui.title("Pi Animation")
+# # canvas = Canvas(gui, width=800, height=600, bg='white')
+# # canvas.pack()
+# #
+# # ball1 = canvas.create_oval(7, 7, 60, 60, fill='red')
+# #
+# # xa = 5
+# # ya = 10
+# #
+# # while True:
+# #     canvas.move(ball1, xa, ya)
+# #     pos = canvas.coords(ball1)
+# #     if pos[3] >= 600 or pos[1] <= 0:
+# #         ya = -ya
+# #     if pos[2] >= 800 or pos[0] <= 0:
+# #         xa = -xa
+# #     gui.update()
+# #     time.sleep(.025)
+# #
+# # gui.mainloop()
+#
+# from tkinter import *
+# from tkinter import ttk
+# top = Tk()
+# image_icon = PhotoImage(file="N_logo.png")
+# top.iconphoto(False,image_icon)
+#
+#
+#
+# CheckVar1 = IntVar()
+# CheckVar2 = IntVar()
+# def sq1():
+#     a=Label(top, text=CheckVar1.get()).pack
+# C1 = Checkbutton(top, text="Music", variable=CheckVar1, onvalue=1, offvalue=0,
+#                  height=5, width=20, selectcolor="red").pack()
+#
+# C2 = Checkbutton(top, text="Video", variable=CheckVar2, onvalue=1, offvalue=0,
+#                  height=5, width=20, selectcolor="blue").pack()
+#
+#
+# Button(top, text="ok", command=sq1).pack()
+# top.mainloop()
