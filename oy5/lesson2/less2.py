@@ -1,0 +1,6 @@
+"""Python  OOP ga kirsh """
+
+
+
+
+
