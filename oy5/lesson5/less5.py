@@ -1,42 +1,39 @@
 """
-lesson 4
-Python OOP dasturlash
-OOP - Object Oriented Programming
-Obyektlar bilan ishlash,
+lesson 5
 
-
-https://t.me/Nozimbek_official
+Python OOP dasturlaash
+Obyeklar bilan ishlash, dunder metodlari
 """
 
-class Avtomobil:
-    def __init__(self, marka, model, rang, yil, narxi):
+
+class Avtomobil():
+    """Bu klasimiz yordamida mashinalarni obyeklari yartatishimiz mumkin"""
+    def __init__(self, marka, model, rang, yili, narxi):
         self.marka = marka
         self.model = model
         self.rang = rang
-        self.yil = yil
+        self.yili = yili
         self.narxi = narxi
 
     def __str__(self):
-        """
-        __str__ - bu metod biz chaqirganda chiqadigan obyekt uchun
-        yangi nom berishda ishlatiladi
-        standart shu kabi bo'ladi: <__main__.Avtomobil object at 0x000001E9C4233610>
-        shu xolat o'zgaradi.
-        """
-        return f"{self.marka}ning {self.model} modeli\n rang {self.rang}\n{self.yil}-yil\n{self.narxi}$"
+        return 'aaaaa'
 
     def reklama(self):
         return f"{self.marka}  {self.model} modeli\n" \
-               f"Rangi:              {self.rang}\n" \
-               f"Ishlab chiqarilgan: {self.yil}-yil\n" \
-               f"Narxi:              {self.narxi}$"
+               f"Rangi:                 {self.rang}\n" \
+               f"Ishlab chiqarilgan:    {self.yili}\n" \
+               f"Narxi:                 {self.narxi}$\n\n"
+
+avto1 = Avtomobil("Hyundai", "Sonata", "Oq", 2019, 35000)
+avto2 = Avtomobil("KIA", "Cerato", "Qora", 2015, 42000)
+avto3 = Avtomobil("Tesla", "X3", "Kok", 2021, 135000)
+avto4 = Avtomobil("GM", "Ravon Nexia 3", "Oq", 2020, 10000)
+avto5 = Avtomobil("ИЖ", "Moskvich 412", "Yashil", 1990, 1800)
 
 
-# print(Avtomobil("Toyota", "Corolla", "2019", "100000"))
+# print(avto1.reklama(),avto2.reklama(),avto3.reklama(),avto4.reklama(),avto5.reklama())
 
-avto1 = Avtomobil("Hyundai", "Sonata","Oq", "2016", 80000)
-avto2 = Avtomobil("KIA", "Cerato","Qora", "2018", 90000)
-avto3 = Avtomobil("Tesla", "Model 3", "Kok", "2019", 130000)
-avto4 = Avtomobil("GM", "Ravon Nexia 3", "Asfalt rang", "2019", 9000)
+# print(dir(Avtomobil))
 
-print(avto4.reklama())
+
+print(avto1)
